@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body text="white">
+    <h4>Please bring your mouse over the image and remove it</h4>
+    <div style="height: 200px; width: 200px; background-color: green;" id="myDiv" 
+    onmouseover="fondoCeleste()" onmouseout="fondoRojo()" />
+    
+    <script>
+
+        function fondoCeleste() 
+        {
+
+            document.getElementById("myDiv").style.backgroundColor = "lightblue";
+        }
+
+        function fondoRojo() 
+        {
+
+            document.getElementById("myDiv").style.backgroundColor = "red";
+        }
+
+    </script>
+</body>
+
+
+</html>
