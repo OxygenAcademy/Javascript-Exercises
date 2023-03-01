@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Logo
+        </h1>
+        <nav class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </nav>
+        <div class="burguer">
+            <button id="burguer-button">Burguer</button>
+        </div>
+    </header>
+    <section>
+        <dialog id="formContent">
+            <form>
+                <input type="text" name="titulo" placeholder="titulo"/>
+                <input type="text" name="autor" placeholder="autor" />
+                <input type="text" name="contenido" placeholder="contenido"/>
+            </form>
+            <button id="send"> send</button>
+        </dialog>
+        <button id="show">Mostrar</button>
+    </section>
+    <section>
+        <table id="table">
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+          </table>
+    </section>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
